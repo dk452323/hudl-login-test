@@ -13,23 +13,15 @@ This project includes end-to-end tests written with [Playwright](https://playwri
 
 2. **Install dependencies:**
 
-   Make sure you have [Node.js](https://nodejs.org/) installed (version 16 or later is recommended).
+   Make sure your project has a valid package.json and playwright installed:
 
    ```bash
-   npm install
-   ```
-
-3. **Install Playwright (if not already installed):**
-
-   ```bash
+   npm init -y
+   npm install -D @playwright/test
    npx playwright install
    ```
 
-   This installs the necessary browser binaries.
-
----
-
-4. ****Install Dotenv (if not already installed):**
+3. ****Install Dotenv (if not already installed):**
 
    ```bash
    Navigate to your project root directory:
