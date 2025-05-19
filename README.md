@@ -29,6 +29,19 @@ This project includes end-to-end tests written with [Playwright](https://playwri
 
 ---
 
+4. ****Install Dotenv (if not already installed):**
+
+   ```bash
+   Navigate to your project root directory:
+   npm install dotenv
+   ```
+   
+### 🚨 To run the test you must first update the .env file environment variables to your unique username and password:
+```bash
+HUDL_EMAIL=your-email@example.com
+HUDL_PASSWORD=your-secure-password
+```  
+
 ### 🚀 Running Tests
 
 To run all Playwright tests:
@@ -79,12 +92,5 @@ Then run via:
 npm run test
 npm run test:ui
 npm run test:report
-```
-
----
-### 🚨 To run the test you must first update the .env file environment variables to your unique username and password:
-```bash
-HUDL_EMAIL=your-email@example.com
-HUDL_PASSWORD=your-secure-password
 ```
 
