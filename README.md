@@ -80,3 +80,11 @@ npm run test
 npm run test:ui
 npm run test:report
 ```
+
+---
+### 🚨 To run the test you must first update the .env file environment variables to your unique username and password:
+```bash
+HUDL_EMAIL=your-email@example.com
+HUDL_PASSWORD=your-secure-password
+```
+
